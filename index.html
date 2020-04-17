@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title> Clean Blog </title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <script src="bootstrap-3.3.7-dist/js/npm.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="main.js"></script>
+
+    <style>
+
+        body{
+            font-family: Serif;
+            font-size: 20px;
+            -webkit-tap-highlight-color: #0085A2;
+        }
+
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 70px;
+            padding-top: 70px;
+        }
+        p.subheading{
+            color: white;
+            text-align: center;
+            font-size: x-large;
+        }
+
+        a.navbar-brand{
+            color: white;;
+        }
+
+        li{
+            font-size: medium;
+        }
+
+        #map{
+            height: 300px;
+            width: 90%;
+            margin-left: 5%;
+            margin-top: 10px;
+            margin-bottom: 50px;
+        }
+
+        header.onheader {
+            background: center;
+            width: 100%;
+            height: 500px;
+            font-size: 50px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 0px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header class="onheader" style= "background-image: url(img/home.jpg)">
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <li style="float:right!important;"><a href="#">Menu</a></li>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Start Bootstrap</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sample Post</a></li>
+                    <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="media-heading">
+                    <h1> Clean Blog </h1>
+                    <hr class="small" style="border-width: medium" width="80px">
+                    <p class="subheading"> A Clean Blog Theme by Start Bootstrap</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+            <div class="post">
+                <h2 class="post-title">
+                    Man must explore, and this is exploration at its greatest
+                </h2>
+                <h3 class="post-subtitle"> Problems look mighty small from 150 miles up</h3>
+                <p class="post-meta">
+                    posted by Start Bootstrap on September 24, 2014
+                </p>
+            </div>
+            <hr>
+
+            <div class="post">
+            <h2 class="post-title">
+                I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+            </h2>
+                <p class="post-meta">
+                    posted by Start Bootstrap on September 24, 2014
+                </p>
+            </div>
+            <hr>
+
+            <div class="post">
+                <h2 class="post-title">
+                    Science has not yet mastered prophecy
+                </h2>
+                <h3 class="post-meta">
+                    We predict too much for the next year and yet far too little for the next ten.
+                </h3>
+                <p class="post-meta">
+                    posted by Start Bootstrap on September 24, 2014
+                </p>
+            </div>
+            <hr>
+            <div class="post">
+                <h2 class="post-title">
+                    Failure is not an option
+                </h2>
+                <h3 class="post-meta">
+                    Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+                </h3>
+                <p class="post-meta">
+                    posted by Start Bootstrap on September 24, 2014
+                </p>
+        </div>
+            <hr>
+            <ul class="pager">
+                <li class="next">
+                    <a href="#"> Older Posts -> </a>
+                </li>
+            </ul>
+
+    </div>
+
+    </div>
+</div>
+<hr>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<ul class="list-inline text-center">
+    <li> T <i class="fa fa-twitter" style="font-size:24px"> </i> </li>
+    <li> F <i class="fa fa-facebook-square" style="font-size:24px"> </i> </li>
+    <li> G <i class="fa fa-github" style="font-size:24px"></i> </li>
+</ul>
+
+<p class="copyright text-muted" style="text-align: center"> Copyright © Your Website 2016 </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="map">
+
+    </div>
+
+</footer>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgw3f4kldBmfQCkNmqFfyZCZkdgKdUrWI&callback=initMap"
+        async defer></script>
+
+</body>
+</html>
